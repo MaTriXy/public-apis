@@ -1,5 +1,5 @@
 {
-    "count": 491,
+    "count": 495,
     "entries": [
         {
             "API": "Dogs",
@@ -503,6 +503,14 @@
             "Auth": null,
             "HTTPS": true,
             "Link": "https://www.cryptonator.com/api/",
+            "Category": "Cryptocurrency"
+        },
+        {
+            "API": "GDAX",
+            "Description": "Cryptocurrency Trading Platform",
+            "Auth": "apiKey",
+            "HTTPS": true,
+            "Link": "https://docs.gdax.com/#api",
             "Category": "Cryptocurrency"
         },
         {
@@ -1453,8 +1461,8 @@
             "API": "Pok\u00e9api",
             "Description": "Pok\u00e9mon Information",
             "Auth": null,
-            "HTTPS": false,
-            "Link": "http://pokeapi.co",
+            "HTTPS": true,
+            "Link": "https://pokeapi.co",
             "Category": "Games & Comics"
         },
         {
@@ -1567,6 +1575,14 @@
             "Auth": null,
             "HTTPS": false,
             "Link": "http://www.geonames.org/export/web-services.html",
+            "Category": "Geocoding"
+        },
+        {
+            "API": "Google Earth Engine",
+            "Description": "A cloud-based platform for planetary-scale environmental data analysis",
+            "Auth": "apiKey",
+            "HTTPS": true,
+            "Link": "https://developers.google.com/earth-engine/",
             "Category": "Geocoding"
         },
         {
@@ -2914,6 +2930,14 @@
             "Category": "Social"
         },
         {
+            "API": "Disqus",
+            "Description": "Communicate with Disqus data",
+            "Auth": "OAuth",
+            "HTTPS": true,
+            "Link": "https://disqus.com/api/docs/auth/",
+            "Category": "Social"
+        },
+        {
             "API": "DonReach Social Count",
             "Description": "Get the social share count of a URL from every major social network",
             "Auth": null,
@@ -3250,6 +3274,14 @@
             "Category": "Test Data"
         },
         {
+            "API": "LoremPicsum",
+            "Description": "Generate placeholder pictures",
+            "Auth": null,
+            "HTTPS": false,
+            "Link": "http://lorempicsum.com",
+            "Category": "Test Data"
+        },
+        {
             "API": "Loripsum",
             "Description": "The \"lorem ipsum\" generator that doesn't suck",
             "Auth": null,
@@ -3351,6 +3383,14 @@
             "Auth": null,
             "HTTPS": true,
             "Link": "https://www.adsbexchange.com/data/",
+            "Category": "Transportation"
+        },
+        {
+            "API": "AIS Hub",
+            "Description": "Real-time data of any marine and inland vessel equipped with AIS tracking system",
+            "Auth": "apiKey",
+            "HTTPS": false,
+            "Link": "http://www.aishub.net/api",
             "Category": "Transportation"
         },
         {
@@ -3759,14 +3799,6 @@
             "Auth": null,
             "HTTPS": true,
             "Link": "https://deividfortuna.github.io/fipe/",
-            "Category": "Vehicle"
-        },
-        {
-            "API": "Edmunds",
-            "Description": "Lot of vehicles information",
-            "Auth": "apiKey",
-            "HTTPS": false,
-            "Link": "http://developer.edmunds.com/api-documentation/overview/",
             "Category": "Vehicle"
         },
         {
