@@ -10,14 +10,14 @@ community build applications and use free, public APIs quickly and easily. Pull 
 
 Current API entry format:
 
-| API | Description | Auth | HTTPS | CORS | Link |
-| --- | --- | --- | --- | --- | --- |
-| API Title | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * | Link to API webpage |
+| API | Description | Auth | HTTPS | CORS |
+| --- | --- | --- | --- | --- |
+| API Title(Link to API webpage) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * |
 
 Example entry:
 
 ```
-| NASA | NASA data, including imagery | No | Yes | Yes | [Go!](https://api.nasa.gov) |
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes |
 ```
 
 \* Currently, the only accepted inputs for the `Auth` field are as follows:
@@ -37,8 +37,6 @@ Please continue to follow the alphabetical ordering that is in place per section
 
 If an API seems to fall into multiple categories, please place the listing within the section most in line with the services offered through the API. For example, the Instagram API is listed under `Social` since it is mainly a social network, even though it could also apply to `Photography`.
 
-This project now offers a [JSON version](json/) of the list of services. These files are automatically updated as part of the Continuous Integration process, so there is no need to update them as part of the contribution. 
-
 ## Pull Request
 
 After you've created a branch on your fork with your changes, it's time to [make a pull request][pr-link]!
@@ -54,6 +52,7 @@ merge conflicts will be less likely. See more detailed instructions [here][synci
 * Create a [branch][branch-link] for your edits.
 * Contribute in the style of the project as outlined above. This makes it easier for the collaborators to merge
 and for others to understand and maintain in the future.
+* Please make sure you squash all commits together before opening a pull request. If your pull request requires changes upon review, please be sure to squash all additional commits as well. [This wiki page][squash-link] outlines the squash process.
 
 ### Open Pull Requests
 
@@ -76,4 +75,5 @@ Thanks for being a part of this project, and we look forward to hearing from you
 [pr-link]: <https://help.github.com/articles/creating-a-pull-request/>
 [remote-link]: <https://help.github.com/articles/configuring-a-remote-for-a-fork/>
 [syncing-link]: <https://help.github.com/articles/syncing-a-fork>
+[squash-link]: <https://github.com/todotxt/todo.txt-android/wiki/Squash-All-Commits-Related-to-a-Single-Issue-into-a-Single-Commit>
 
